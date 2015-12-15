@@ -7,7 +7,7 @@ add_filter('badgeos_achievement_data_meta_box_fields', function($fields) {
 		'desc' => ' '.__( 'Number of minutes this badge cannot be earned after it has been awarded. (set to 0 for unlimited).', 'badgeos' ),
 		'id'   => $prefix . 'time_limit',
 		'type' => 'text_small',
-		'std' => '1',
+		'std' => '0',
 	);
 	return $fields;
 });
