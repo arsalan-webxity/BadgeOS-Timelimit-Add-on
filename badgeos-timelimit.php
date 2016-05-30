@@ -1,18 +1,17 @@
 <?php
 /**
  * Plugin Name: BadgeOS Timelimit Add-On
- * Plugin URI: http://www.konnektiv.de/
+ * Plugin URI: https://wordpress.org/plugins/badgeos-timelimit-add-on/
  * Description: This BadgeOS add-on adds the ability to limit achievement rewarding per time
- * Tags: buddypress
- * Author: konnektiv
- * Version: 1.0.0
- * Author URI: https://konnektiv.de/
+ * Tags: buddypress, badgeos
+ * Author: Konnektiv
+ * Version: 1.0.1
+ * Author URI: http://konnektiv.de/
  * License: GNU AGPL
  * Text Domain: badgeos-timelimit
  */
-
 /*
- * Copyright © 2012-2013 LearningTimes, LLC
+ * Copyright © 2012-2016 LearningTimes, LLC, Konnektiv, Christoph Herbst
  *
  * This program is free software: you can redistribute it and/or modify it
  * under the terms of the GNU Affero General Public License, version 3,
@@ -34,7 +33,7 @@ class BadgeOS_Timelimit {
 		// Define plugin constants
 		$this->basename       = plugin_basename( __FILE__ );
 		$this->directory_path = plugin_dir_path( __FILE__ );
-		$this->directory_url  = plugins_url( 'badgeos-timelimit/' );
+		$this->directory_url  = plugins_url( 'badgeos-timelimit-add-on/' );
 
 		// Load translations
 		load_plugin_textdomain( 'badgeos-timelimit', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
@@ -52,7 +51,7 @@ class BadgeOS_Timelimit {
 	/**
 	 * Files to include for BadgeOS integration.
 	 *
-	 * @since  1.1.1
+	 * @since  1.0.0
 	 */
 	public function includes() {
 		if ( $this->meets_requirements() ) {
@@ -85,12 +84,12 @@ class BadgeOS_Timelimit {
 	/**
 	 * Check if BadgeOS is available
 	 *
-	 * @since  0.0.1
+	 * @since  1.0.0
 	 * @return bool True if BadgeOS is available, false otherwise
 	 */
 	public static function meets_requirements() {
 
-		if ( class_exists('BadgeOS') && version_compare( BadgeOS::$version, '1.4.0', '>=' ) ) {
+		if ( class_exists( 'BadgeOS' ) && version_compare( BadgeOS::$version, '1.4.0', '>=' ) ) {
 			return true;
 		} else {
 			return false;
@@ -116,4 +115,5 @@ class BadgeOS_Timelimit {
 	}
 
 }
+
 $GLOBALS['badgeos_timelimit'] = new BadgeOS_Timelimit();

@@ -2,7 +2,7 @@
   "name": "konnektiv/badgeos-timelimit-add-on",
   "description": "This BadgeOS add-on adds the ability to limit achievement rewarding per time.",
   "type": "wordpress-plugin",
-  "license": "GPL-2.0+",
+  "license": "AGPL-3.0",
   "require": {
     "composer/installers": "~1.0",
     "php": ">=5.2.4"
