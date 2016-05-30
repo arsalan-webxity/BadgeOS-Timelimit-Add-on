@@ -22,7 +22,7 @@ This plugin was originally developed for the [globe - Community of Digital Learn
 = Contact =
 
 * [Konnektiv](http://konnektiv.de/)
-* [BadgeOS Timelimit Add-on on GitHub](https://github.com/konnektiv/BadgeOS-Timelimit-Add-on "BadgeOS-Timelimit-Add-on on GitHub") - Report issues, contribute code
+* [BadgeOS Timelimit Add-on on GitHub](https://github.com/konnektiv/BadgeOS-Timelimit-Add-on) - Report issues, contribute code
 
 
 == Installation ==

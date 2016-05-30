@@ -5,7 +5,7 @@
  * Description: This BadgeOS add-on adds the ability to limit achievement rewarding per time
  * Tags: buddypress, badgeos
  * Author: Konnektiv
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author URI: http://konnektiv.de/
  * License: GNU AGPL
  * Text Domain: badgeos-timelimit
