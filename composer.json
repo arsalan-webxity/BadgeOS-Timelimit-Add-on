@@ -1,6 +1,6 @@
 {
   "name": "konnektiv/badgeos-timelimit-add-on",
-  "description": "his BadgeOS add-on adds the ability to limit achievement rewarding per time.",
+  "description": "This BadgeOS add-on adds the ability to limit achievement rewarding per time.",
   "type": "wordpress-plugin",
   "license": "GPL-2.0+",
   "require": {
