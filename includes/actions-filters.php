@@ -4,7 +4,7 @@ add_filter('badgeos_achievement_data_meta_box_fields', function($fields) {
 	$prefix = "_badgeos_";
 	$fields[] = array(
 		'name' => __( 'Time limit', 'badgeos-timelimit' ),
-		'desc' => ' '.__( 'Number of minutes this badge cannot be earned after it has been awarded. (set to 0 for unlimited).', 'badgeos' ),
+		'desc' => ' '.__( 'Number of minutes this badge cannot be earned after it has been awarded. (set to 0 for unlimited).', 'badgeos-timelimit' ),
 		'id'   => $prefix . 'time_limit',
 		'type' => 'text_small',
 		'std' => '0',
