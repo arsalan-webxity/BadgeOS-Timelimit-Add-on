@@ -3,8 +3,17 @@
   "description": "This BadgeOS add-on adds the ability to limit achievement rewarding per time.",
   "type": "wordpress-plugin",
   "license": "AGPL-3.0",
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/konnektiv/git-wordpress-publish.git"
+    }
+  ],
   "require": {
     "composer/installers": "~1.0",
     "php": ">=5.2.4"
+  },
+  "require-dev": {
+    "konnektiv/git-wordpress-publish": "master-dev"
   }
 }
