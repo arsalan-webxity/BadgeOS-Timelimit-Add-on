@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: BadgeOS Timelimit Add-On
- * Plugin URI: https://wordpress.org/plugins/badgeos-timelimit-add-on/
+ * Plugin URI: https://wordpress.org/plugins/timelimit-add-on-for-badgeos/
  * Description: This BadgeOS add-on adds the ability to limit achievement rewarding per time
  * Tags: buddypress, badgeos
  * Author: Konnektiv
