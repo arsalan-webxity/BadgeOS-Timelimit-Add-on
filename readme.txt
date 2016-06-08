@@ -3,7 +3,7 @@ Contributors: konnektiv, chherbst, learningtimes, rrh
 Tags: time, timelimit, badge, badges, openbadges, credly, OBI, mozilla, open badges, achievement, award, reward, engagement, submission, nomination, community, API, open credit, credit, plugin
 Requires at least: WordPress 3.6.0, BadgeOS 1.4.0
 Tested up to: 4.5.2
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GNU AGPLv3
 License URI: http://www.gnu.org/licenses/agpl-3.0.html
 
@@ -36,6 +36,9 @@ This plugin was originally developed for the [globe - Community of Digital Learn
 1. New option "Time limit", set to 1 day in the example
 
 == Changelog ==
+
+= 1.0.3 =
+* Set correct translation domain
 
 = 1.0.2 =
 * updated readme.txt
