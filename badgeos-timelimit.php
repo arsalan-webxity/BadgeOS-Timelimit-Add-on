@@ -8,7 +8,7 @@
  * Version: 1.0.2
  * Author URI: http://konnektiv.de/
  * License: GNU AGPL
- * Text Domain: badgeos-timelimit
+ * Text Domain: timelimit-add-on-for-badgeos
  */
 /*
  * Copyright © 2012-2016 LearningTimes, LLC, Konnektiv, Christoph Herbst
@@ -33,10 +33,10 @@ class BadgeOS_Timelimit {
 		// Define plugin constants
 		$this->basename       = plugin_basename( __FILE__ );
 		$this->directory_path = plugin_dir_path( __FILE__ );
-		$this->directory_url  = plugins_url( 'badgeos-timelimit-add-on/' );
+		$this->directory_url  = plugin_dir_url(  __FILE__ );
 
 		// Load translations
-		load_plugin_textdomain( 'badgeos-timelimit', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+		load_plugin_textdomain( 'timelimit-add-on-for-badgeos', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 
 		// Run our activation
 		register_activation_hook( __FILE__, array( $this, 'activate' ) );
@@ -106,7 +106,7 @@ class BadgeOS_Timelimit {
 		if ( ! $this->meets_requirements() ) {
 			// Display our error
 			echo '<div id="message" class="error">';
-			echo '<p>' . sprintf( __( 'BadgeOS Timelimit Add-On requires BadgeOS 1.4.0 or greater and has been <a href="%s">deactivated</a>. Please install and activate BadgeOS and then reactivate this plugin.', 'badgeos-timelimit' ), admin_url( 'plugins.php' ) ) . '</p>';
+			echo '<p>' . sprintf( __( 'BadgeOS Timelimit Add-On requires BadgeOS 1.4.0 or greater and has been <a href="%s">deactivated</a>. Please install and activate BadgeOS and then reactivate this plugin.', 'timelimit-add-on-for-badgeos' ), admin_url( 'plugins.php' ) ) . '</p>';
 			echo '</div>';
 
 			// Deactivate our plugin
