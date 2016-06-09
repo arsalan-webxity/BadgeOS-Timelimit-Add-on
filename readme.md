@@ -38,7 +38,8 @@ This plugin was originally developed for the [globe - Community of Digital Learn
 
 ## Screenshots 
 
-###1. New option "Time limit", set to 1 day in the example###
+### 1. New option "Time limit", set to 1 day in the example
+
 ![New option "Time limit", set to 1 day in the example](https://ps.w.org/timelimit-add-on-for-badgeos/assets/screenshot-1.png)
 
 
